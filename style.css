@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(114, 36, 0, 0.836);
+    margin: 0 auto;
+
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.img-poster{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border:solid black
+}
+
+a{
+    text-decoration: none;
+}
+header {
+    align-content: center;
+    background-position: 20% 50%;
+    padding-top: 45px;
+    height: 210px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804_640.jpg");
+    background-size:contain;
+    border-image-outset: 10px;
+    background-attachment: fixed;
+    background-position: center;}
+header:hover{
+    transform:scale(1.014)
+}
+.card {
+    flex-basis: 25%;
+    height: 360px;
+    max-width: 1200px;
+    padding: 45px;
+    border-bottom: 13px solid #ffffff;
+    border-radius: 11%;
+    text-align: center;
+}
+.wrapp{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 15px;
+}
+.wrapp-info{
+    display:flex;
+    flex-direction:column;
+    max-height: fit-content;
+    max-width: 600px;
+    justify-content: space-around;
+    border-radius: 7%;
+
+}
+div:hover {
+    transform: scale(1.048)
+}
+div{
+    text-align: center;
+}
+img{
+    width:50px;
+    height:60px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+}
