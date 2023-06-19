@@ -18,8 +18,17 @@ body{
     border-radius: 50%;
     border:solid black
 }
-.wrapee{
+.wrapee{flex-basis: 25%;
+    border-bottom: 5px solid #e7c4c4;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    max-width: 800px;
+    justify-content: space-around;
     padding-top: 29px;
+    margin-left: 600px;
     background-color:#ad5b5ba2
 }
 .img-poster:hover{
@@ -44,43 +53,33 @@ header {
     background-position: 20% 50%;
     padding-top: 45px;
     height: 210px;
-    background-image: url("https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804_640.jpg");
-    background-size:contain;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736875_640.jpg");
+    background-size:cover;
     border-image-outset: 10px;
     background-attachment: fixed;
     background-position: center;}
 header:hover{
     transform:scale(1.014)
 }
-.card {
+.wrapp {
     flex-basis: 25%;
     padding: 45px;
     border-bottom: 5px solid #e7c4c4;
-    border-radius: 11%;
+    border-radius: 80px;
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-height: fit-content;
-    max-width: 1943px;
-    justify-content: space-around;
-}
-.wrapp{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+    max-width: 550px;
+    margin-left: 290px;
+    margin-top: 109px;
+    align-content: space-around;
+    background-color: #83346094;
 }
 
 
 div:hover {
     transform: scale(1.048)
-}
-div{
-    min-height: 45px;
-    background-color: #d87d3285;
-    text-align: center;
-    border-radius: 40px;
-    padding: 10px;
-    justify-content: space-between;
 }
 img{
     width:50px;
@@ -88,5 +87,6 @@ img{
 }
 footer {
     text-align: center;
+    margin: 80px;
     padding: 20px;
 }
