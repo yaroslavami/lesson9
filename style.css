@@ -16,7 +16,7 @@ body{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border:solid black
+    border:solid black 2px;
 }
 .wrapee{flex-basis: 25%;
     border-bottom: 5px solid #e7c4c4;
@@ -36,7 +36,6 @@ body{
 }
 h1 {
     background-color: rgba(82, 45, 0, 0.733);
-    display: table;
     margin: 10px auto;
     padding: 10px;
     border-radius: 20px;
