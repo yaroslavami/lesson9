@@ -5,7 +5,7 @@ body{
     background-color: rgba(114, 36, 0, 0.836);
     margin: 0 auto;
 }
-.navigation{
+.header{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +60,7 @@ header {
 header:hover{
     transform:scale(1.014)
 }
-.wrapp {
+.card {
     flex-basis: 25%;
     padding: 45px;
     border-bottom: 5px solid #e7c4c4;
